@@ -1,0 +1,26 @@
+@import '~antd/lib/style/themes/default.less';
+
+.container {
+  padding: 24px;
+  background-color: @component-background;
+
+  .primaryPointer {
+    color: @primary-color;
+    cursor: pointer;
+  }
+
+  .activePointer {
+    color: green;
+    cursor: pointer;
+  }
+
+  .suspendedPointer {
+    color: @warning-color;
+    cursor: pointer;
+  }
+
+  .deletePointer {
+    color: @error-color;
+    cursor: pointer;
+  }
+}
